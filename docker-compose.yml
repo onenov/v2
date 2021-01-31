@@ -6,7 +6,7 @@ services:
     container_name: v2ray-ws
     restart: always
     ports:
-      - "80:10086"
+      - "8080:10087"
     volumes:
       - ./config.json:/etc/v2ray/config.json
     logging:
