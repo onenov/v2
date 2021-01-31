@@ -3,10 +3,10 @@ version: '3'
 services:
   v2ray-ws:
     image: v2cc/poseidon
-    container_name: v2ray-ws
+    container_name: v2ray-ws-2
     restart: always
     ports:
-      - "8080:10087"
+      - "80:10086"
     volumes:
       - ./config.json:/etc/v2ray/config.json
     logging:
