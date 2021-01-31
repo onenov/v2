@@ -1,7 +1,7 @@
 {
   "poseidon": {
     "panel": "v2board",         // 这一行必须存在，且不能更改
-    "nodeId": 2,                // 你的节点 ID 和 v2board 里的一致
+    "nodeId": 3,                // 你的节点 ID 和 v2board 里的一致
     "checkRate": 60,            // 每隔多长时间同步一次配置文件、用户、上报服务器信息
     "webapi": "https://www.oun.ink",// v2board 的域名信息
     "token": "HFUIWE7832UJDFEWOI",   // v2board 和 v2ray-poseidon 的通信密钥
